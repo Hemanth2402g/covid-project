@@ -1,0 +1,52 @@
+body{
+  background: url("https://images.unsplash.com/photo-1585816805333-0651801e4ebf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+   background-repeat: no-repeat;
+   background-size: cover; 
+   width: 98%;
+   height: 700px;
+}
+#background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+body:hover 
+{
+  animation: back 6s infinite;
+}
+@keyframes back{
+   0% {
+      background: url("https://images.unsplash.com/photo-1585816805333-0651801e4ebf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+    }
+    25% {
+      background: url("https://www.unicef.org/india/sites/unicef.org.india/files/styles/hero_desktop/public/132_UNICEF_CovidVaccination_2021-0763.jpg?itok=8ttekEXy");
+      background-repeat: no-repeat;
+      background-size: cover;
+     
+    }
+    50% {
+      background: url("https://images.unsplash.com/photo-1625831152275-fa582de8188e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80");
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+    }
+    75% {
+      background:url("https://img.freepik.com/free-photo/covid-19-vaccine-injection-glass-bottle-with-syringe_53876-96861.jpg?w=1060&t=st=1686723396~exp=1686723996~hmac=2a55869248e5806ef9cf5e6474d2f2876e9bfea93d2315519e77fc133ae26f07");
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+    }
+    100% {
+      background: url("https://images.unsplash.com/photo-1585816805333-0651801e4ebf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+      background-repeat : no-repeat;
+      background-size: cover;
+      
+    }
+}
